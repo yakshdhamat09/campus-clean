@@ -1,0 +1,10 @@
+# Ignore the real database connection file
+config/db_connect.php
+
+# Ignore uploaded user evidence photos (keep the folder, ignore the files)
+assets/uploads/proofs/*
+!assets/uploads/proofs/index.html
+
+# Ignore IDE configuration folders
+.vscode/
+.idea/
